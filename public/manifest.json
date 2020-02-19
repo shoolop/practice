@@ -2,11 +2,11 @@
     "name": "Sekai",
     "short_name": "Smallsekai",
     "icons": [{
-        "src": "https://shoolop.github.io/practice/public/src/image/bluere/icon192.png",
+        "src": "practice/public/src/image/bluere/icon192.png",
         "type": "image/png",
         "sizes": "192x192"
     }],
-    "start_url": "https://shoolop.github.io/practice/public/index.html",
+    "start_url": "practice/public/index.html",
     "background_color": "#3367D6",
     "display": "standalone",
     "scope": ".",
