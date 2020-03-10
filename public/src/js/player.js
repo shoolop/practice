@@ -4,15 +4,12 @@ var timeId;
 var preLyric;
 var turn = 0;
 var nowLyric;
-var song = ['sqt8WiKOG1g', 'YtYVPZHQe58'];
+var song = ['sqt8WiKOG1g', 'YtYVPZHQe58', 'kDO3Lt0gE4A'];
 var songId = 0;
 
 function onYouTubeIframeAPIReady() {
     myPlayer = new YT.Player('ytplayer', {
         videoId: song[songId], //Youtube videoId 
-        playerVars: {
-            loop: '1'
-        },
         events: {
             'onStateChange': onPlayerStateChange //play stage
         }
@@ -80,9 +77,9 @@ function startLyric() {
 }
 
 function onPlayerStateChange(event) {
-    /*if (event.data == 0) {
+    if (event.data == 0) {
         myPlayer.playVideo();
-    }*/
+    }
     if (event.data == 1) {
         startLyric();
     } else {
