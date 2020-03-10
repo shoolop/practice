@@ -1,0 +1,22 @@
+#box {
+    font-family: Microsoft JhengHei;
+    margin: 25vh auto 0 auto;
+    width: 80vw;
+    text-align: center;
+    font-size: 3vmax;
+}
+
+img {
+    width: 20vmax;
+    height: 20vmax;
+}
+
+button {
+    font-size: 2vmax;
+    width: 10vmax;
+    height: 5vmax;
+    border: 0;
+    color: yellow;
+    background-color: blue;
+    cursor: pointer;
+}

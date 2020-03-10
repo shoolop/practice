@@ -1,0 +1,76 @@
+.box {
+    background-color: rgba(255, 255, 255, 0.7);
+    font-family: Microsoft JhengHei;
+    font-size: 2.5vh;
+}
+
+#out {
+    margin: 10vh auto 0 auto;
+    width: 80vw;
+    height: 80vh;
+}
+
+#left {
+    float: left;
+    width: 30%;
+    height: 100%;
+}
+
+#right {
+    float: left;
+    width: 70%;
+    text-align: center;
+}
+
+#album {
+    width: 80%;
+    height: 45%;
+}
+
+#ytplayer {
+    width: 100%;
+    height: 50%;
+}
+
+#next {
+    right: 0;
+    position: fixed;
+    top: 45%;
+}
+
+#pre {
+    left: 0;
+    position: fixed;
+    top: 45%;
+}
+
+#top {
+    text-align: center;
+}
+
+@media(max-width:800px) {
+    .box {
+        background-color: rgba(255, 255, 255, 0);
+        font-size: 2.4vh;
+    }
+    #out {
+        margin: 0;
+        width: 100%;
+        height: 100vh;
+    }
+    #left {
+        width: 100%;
+        height: 20%;
+    }
+    #right {
+        background-color: rgba(255, 255, 255, 0.7);
+        width: 100%;
+        height: 100%;
+    }
+    #album {
+        display: none;
+    }
+    #ytplayer {
+        height: 100%;
+    }
+}

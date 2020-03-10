@@ -1,0 +1,25 @@
+{
+    "name": "日語歌詞",
+    "short_name": "MikuSekai",
+    "icons": [{
+            "src": "src/image/icon/icon48.png",
+            "type": "image/png",
+            "sizes": "48x48"
+        },
+        {
+            "src": "src/image/icon/icon192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "src/image/icon/icon512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    "start_url": "player.html",
+    "background_color": "#3367D6",
+    "display": "standalone",
+    "scope": ".",
+    "theme_color": "#3367D6"
+}

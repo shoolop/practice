@@ -1,0 +1,44 @@
+#btnright {
+    position: absolute;
+    bottom: 10vmax;
+    right: 0;
+}
+
+.skin {
+    margin-top: 8vmin;
+    background-image: url('../image/button.jpg');
+    background-size: cover;
+    width: 20vmax;
+    height: 10vmin;
+    transform: skewY(160deg);
+    display: block;
+}
+
+.skin:hover {
+    box-shadow: 3px 5px 5px 6px #131212;
+}
+
+.oblique {
+    transform: skewY(20deg) rotate(-20deg);
+}
+
+#intro {
+    position: absolute;
+    font-family: Microsoft JhengHei;
+    font-size: 5vmax;
+    top: 25%;
+    right: 30%;
+    writing-mode: vertical-lr;
+    color: blue;
+}
+
+#bottom {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 3vh;
+    background-color: black;
+    font-family: Microsoft JhengHei;
+    text-align: center;
+    color: white;
+}
