@@ -1,3 +1,18 @@
+#out {
+    width: 100vw;
+    height: 100vh;
+}
+
+#intro {
+    position: absolute;
+    font-family: Microsoft JhengHei;
+    font-size: 5vmax;
+    top: 25%;
+    right: 30%;
+    writing-mode: vertical-lr;
+    color: blue;
+}
+
 #btnright {
     position: absolute;
     bottom: 10vmax;
@@ -20,16 +35,6 @@
 
 .oblique {
     transform: skewY(20deg) rotate(-20deg);
-}
-
-#intro {
-    position: absolute;
-    font-family: Microsoft JhengHei;
-    font-size: 5vmax;
-    top: 25%;
-    right: 30%;
-    writing-mode: vertical-lr;
-    color: blue;
 }
 
 #bottom {
