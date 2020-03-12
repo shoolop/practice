@@ -4,7 +4,7 @@ var timeId;
 var preLyric;
 var turn = 0;
 var nowLyric;
-var song = ['sqt8WiKOG1g', 'YtYVPZHQe58'];
+var song = ['sqt8WiKOG1g', 'YtYVPZHQe58', 'kDO3Lt0gE4A'];
 var songId = 0;
 
 function onYouTubeIframeAPIReady() {
