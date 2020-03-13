@@ -4,8 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="manifest" href="manifest.json">
     <link rel=stylesheet type="text/css" href="src/css/main.css">
     <link rel=stylesheet type="text/css" href="src/css/index.css">
+    <script src="src/js/install.js"></script>
+    <script src="src/js/response.js"></script>
     <title>Hello!!</title>
 </head>
 
@@ -13,8 +16,9 @@
     <div id="out">
         <div id="intro">歌詞練唱</div>
         <div id="btnright">
-            <button class="skin" onclick="location.href='player.html'"><div class="oblique">練唱歌詞(定期更新)</div></button>
-            <button class="skin" onclick="location.href='download.html'"><div class="oblique">下載App(Beta)</div></button>
+            <button class="skin" onclick="location.href='player.html'"><div class="oblique">練唱歌詞</div></button>
+            <button class="skin" onclick="InstallModal()"><div class="oblique">下載App(Beta)</div></button>
+            <button class="skin" onclick="InstallAlarm()"><div class="oblique">鬧鐘chrome插件</div></button>
         </div>
     </div>
     <div id="bottom">此為miku的小小粉絲製作</div>
