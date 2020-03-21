@@ -1,13 +1,16 @@
 #infobox {
     background-color: rgba(255, 255, 255, 0.7);
     font-family: Microsoft JhengHei;
-    margin: 25vh auto 0 auto;
-    width: 80vw;
+    margin: 15vh auto 0 auto;
+    padding-top: 10vh;
+    width: 80%;
+    height: 75vh;
     text-align: center;
     font-size: 3vmax;
 }
 
 #infobtn {
+    margin-top:1vh;
     width: 10vmax;
     height: 5vmax;
     color: yellow!important;
